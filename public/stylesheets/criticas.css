@@ -1,0 +1,22 @@
+main{
+    padding-top: 50px;
+}
+p{
+    color: white;
+
+}
+
+.critica{
+    background-color: darkgrey;
+    padding: 40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.critica img{
+    height: 40px;
+    width: 50px;
+}
+

@@ -1,0 +1,59 @@
+/*Inicio Contacto*/
+
+main{
+    display: flex;
+}
+.contacto h2{
+    margin: 0;
+    padding-top: 15px ;
+}
+
+.contacto{
+    position: relative;
+    top: 150px;
+    right: 150px;
+    color: white;
+}
+
+.informacion{
+    position: relative;
+    bottom: 290px;
+    left: 250px;
+    color: white;
+}
+
+.contacto form p input{
+    border-radius: 40px;
+    border: 1px solid #7e8dfd;
+    padding: 6px 10px;
+}
+
+.contacto form p textarea{
+    height: 90px;
+    width: 220px;
+    resize: none;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.contacto form p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+.contacto input[type="submit"] {
+    background-color: #7e8dfd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.contacto input[type="submit"]:hover{
+    background-color: #080c29;
+}
+
+/*Fin contacto*/

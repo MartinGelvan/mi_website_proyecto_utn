@@ -1,0 +1,125 @@
+/* font-family: 'Roboto Mono', monospace; */
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    /* background-color: #7e8dfd; */
+    background-image: radial-gradient(#7e8dfd,#2b3580 );
+
+}
+header{
+    background-color: #080c29;
+    height: 70px;
+}
+
+.menuDesplegable{
+    padding-right: 18px;
+    cursor: pointer ;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+header img{
+    position: relative;
+    width: 200px;
+    top: -30px;
+    left: -190px;
+}
+nav{
+    background-color: #2b3580;
+    height: 40px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    /* display: block; */
+    flex-grow: 1;
+    /*La propiedad flex-grow de CSS especifica el factor de crecimiento de un elemento flexible (que tiene asignado       display:flex), en su dirección principal.*/
+
+}
+nav ul a{
+    color: white;
+    padding: 5px 15px;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    background-color: #080c29;
+   
+}
+.pintado{
+    background-color: #080c29;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+main{
+    margin-bottom: 100px;
+}
+footer{
+    background-color: black;
+    color: darkgrey;
+    text-align: center;
+    padding: 80px 0;
+    height: 50px;
+    width: 100%;
+    align-self: flex-end;
+
+}
+
+@media screen and (max-width: 550px){
+    
+    .menuDesplegable{
+        display: block;
+        float: right;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #2b3580;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+
