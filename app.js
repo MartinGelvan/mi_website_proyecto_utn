@@ -13,6 +13,7 @@ var contactRouter = require('./routes/contact');
 var newsRouter = require('./routes/news');
 var marvelRouter = require('./routes/marvel');
 var pixarRouter = require('./routes/pixar');
+var loginRouter = require('./routes/admin/login');
 
 
 var app = express();
@@ -34,6 +35,8 @@ app.use('/contact', contactRouter);
 app.use('/news', newsRouter);
 app.use('/marvel', marvelRouter);
 app.use('/pixar', pixarRouter);
+app.use('/admin/login', loginRouter);
+
 
 
 // catch 404 and forward to error handler
