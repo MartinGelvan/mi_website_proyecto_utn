@@ -8,11 +8,7 @@ require('dotenv').config();
 
 var session = require('express-session');
 
-app.use(session({
-  secret:'asdas232sa',
-  resave: false,
-  saveUninitialized:true
-}))
+
 
 secured = async(req,res,next)=>{
   try{
@@ -49,6 +45,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(session({
+  secret:'asdas232sa',
+  resave: false,
+  saveUninitialized:true
+}))
+
 
 app.use('/', indexRouter);
 //app.use('/users', usersRouter);
