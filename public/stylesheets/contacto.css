@@ -57,3 +57,19 @@ main{
 }
 
 /*Fin contacto*/
+
+@media screen and (max-width: 550px){
+
+    .contacto{
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+
+    .informacion{
+        top: 100px;
+        left: -40px;
+        margin-bottom: 50px;
+    }
+    
+ }

@@ -138,14 +138,57 @@ body[data-aos-duration="400"] [data-aos] {
 @media screen and (max-width: 550px) {
    
 
-    .categorias {
+    /* .categorias {
         display: flex;
         position: relative;
         bottom: 250px;
         right: 40px;
         gap: 24px;
-    }
+    } */
 
+  
+
+   .items .item {
+   
+    position: absolute;
+    left: -10px;
+    
+    width: 270px;
+    height: 150px;
+    
+  }
+
+  .items .button-container {
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    transform: translate(-50%, -50%);
+    width: 290px;
+    z-index: 100;
+  }
+
+  .categorias {
+    position: relative;
+    top: -290px;
+    left: -50px;
+}
+
+.categorias img {
+  width: 180px;
+}
+
+
+.item.prev {
+  display: none;
+}
+
+.item.next {
+  display: none;
+}
+
+.items{
+  display: none;
+}
 }
 
 /*final HOME*/
