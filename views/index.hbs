@@ -1,53 +1,26 @@
 <div class="holder">
 
-    <div id="conteItemsCarrusel" data-aos="fade-up">
-        <div class="peliculasCarrusel">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
-                <img src="images/PeliculaMoonKnight.png" alt="Moonknight">
-            </div>
-            <div class="flechasCarrusel">
-                <a href="#tarjetaCarrusel-3">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </a>
-                <a href="#tarjetaCarrusel-2">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-        <div class="peliculasCarrusel">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
-                <img src="images/SpiderManNoWeyHome.jpg" alt="spidermanNoWeyHome">
-            </div>
-            <div class="flechasCarrusel">
-                <a href="#tarjetaCarrusel-1">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </a>
-                <a href="#tarjetaCarrusel-3">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </a>
-            </div>
-
-        </div>
-        <div class="peliculasCarrusel">
-            <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
-                <img src="images/Moana.jpg" alt="moana">
-            </div>
-            <div class="flechasCarrusel">
-                <a href="#tarjetaCarrusel-2">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </a>
-                <a href="#tarjetaCarrusel-1">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="puntosCarrusel" data-aos="fade-up">
-        <a href="#tarjetaCarrusel-1">.</a>
-        <a href="#tarjetaCarrusel-2">.</a>
-        <a href="#tarjetaCarrusel-3">.</a>
-    </div>
-
+    <div class="items">
+		<div class="item active">
+			<img src="images/Moana.jpg">
+		</div>
+		<div class=" item next">
+			<img src="images/PeliculaMoonknight.png">
+		</div>
+		{{!-- <div class="item">
+			<img src="http://via.placeholder.com/500x500">
+		</div>
+		
+		<div class="item prev">
+			<img src="http://via.placeholder.com/500x500">
+		</div> --}}
+       
+		<div class="button-container">
+			<div class="button"><i class="fas fa-angle-left"></i></div>
+			<div class="button"><i class="fas fa-angle-right"></i></div>
+		</div>
+	</div>
+    
 
     <div class="categorias" data-aos="fade-up">
         <div class="marvel">
@@ -62,4 +35,5 @@
 
         </div>
     </div>
+    <script src="javascripts/home.js"></script>
 </div>
