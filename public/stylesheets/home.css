@@ -59,7 +59,7 @@ body[data-aos-duration="400"] [data-aos] {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
+    width: 450px;
     height: 250px;
     border-radius: 10%;
     overflow: hidden;
@@ -71,7 +71,7 @@ body[data-aos-duration="400"] [data-aos] {
   .item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
   
   .item.active {
