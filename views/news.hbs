@@ -2,11 +2,15 @@
     <link rel="stylesheet" href="stylesheets/news.css">
 </head>
 <section class="holder">
+    {{#each novedades}}
     <div class="news" data-aos="fade-up">
-        <h3>"DR SRANGE IN THE MULTIVERSE OF MADNESS"</h3>
-        <p>Este miércoles 4 de mayo será el preestreno de esta pelícla en México 'Doctor Strange en el
-            Multiverso de la Locura' en las salas de cine y llegará oficialmente el jueves 5, mientras que en
-            streaming (Disney Plus) se podrá ver hasta mediados de julio..</p>
+
+        <div>
+            <h3>{{titulo}}</h3>
+            <p>{{cuerpo}}</p>
+        </div>
+
     </div>
+    {{/each}}
     <hr>
 </section>
