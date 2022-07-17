@@ -10,17 +10,17 @@ main{
 
 .contacto{
     position: relative;
-    top: 150px;
-    right: 150px;
+    top: 70px;
+    right: 20px;
     color: white;
 }
 
-.informacion{
+/* .informacion{
     position: relative;
     bottom: 290px;
     left: 250px;
     color: white;
-}
+} */
 
 .contacto form p input{
     border-radius: 40px;
@@ -62,14 +62,14 @@ main{
 
     .contacto{
         position: relative;
-        left: 50px;
+        left: 10px;
         top: 50px;
     }
 
-    .informacion{
+    /* .informacion{
         top: 100px;
         left: -40px;
         margin-bottom: 50px;
-    }
+    } */
     
  }

@@ -10,3 +10,22 @@
 h3{
     text-align: center;
 }
+
+@media screen and (max-width: 414px) {
+   
+    .news{
+        position: relative;
+        left: 2px;
+    }
+    
+}
+
+@media screen and (max-width: 390px) {
+   
+    .news{
+        position: relative;
+        left: 13px;
+    }
+    
+}
+  
