@@ -2,6 +2,10 @@
     <link rel="stylesheet" href="stylesheets/news.css">
 </head>
 <section class="holder">
+    <form action="/news" method="get">
+        <input type="search" placeholder="Buscar" name="q" {{#if q}} value="{{q}}" {{/if}}>
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
     {{#each novedades}}
     <div class="news" data-aos="fade-up">
 
@@ -12,5 +16,11 @@
 
     </div>
     {{/each}}
+
+    {{#if is_search}}
+        {{#unless novedades.length}}
+            <p>No se encontraron resultados para <b>"{{q}}"</b></p>
+        {{/unless}}
+    {{/if}}
     <hr>
 </section>

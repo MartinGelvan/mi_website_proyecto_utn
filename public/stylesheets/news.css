@@ -11,6 +11,30 @@ h3{
     text-align: center;
 }
 
+input{
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+
+button{
+    border-radius: 50px;
+    padding: 10px;
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 17px;
+    background-color: #7e8dfd;
+}
+
+i{
+    font-size: 20px;
+    
+}
+
 @media screen and (max-width: 414px) {
    
     .news{
