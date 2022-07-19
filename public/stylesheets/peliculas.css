@@ -159,3 +159,12 @@ footer{
     }
   }
 
+  @media (max-width:375px) {
+  
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 450px);
+      overflow-y: auto;
+    }
+  }
+
+
