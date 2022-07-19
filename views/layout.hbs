@@ -45,9 +45,21 @@
       <img src="images/LogoMI.png" alt="MI">
     </div>
   </header>
-  <nav>
+  <nav class="nav">
 
-    <ul class="holder">
+
+    <input type="checkbox" id="nav-check">
+    
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+
+    <ul class="holder nav-links">
 
       <li><a class="{{#if isHome}}pintado{{/if}}" href="/">HOME</a></li>
       <li><a class="{{#if isAbout}}pintado{{/if}}" href="/about">ABOUT</a></li>
