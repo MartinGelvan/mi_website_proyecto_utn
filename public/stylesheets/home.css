@@ -199,12 +199,12 @@ body[data-aos-duration="400"] [data-aos] {
 
 @media screen and (max-width: 414px) {
    
-  header img {
+  /* header img {
     position: relative;
     width: 70px;
     top: -3px;
     left: 162px;
-}
+} */
   
 
  .items .item {
@@ -389,3 +389,4 @@ display: none;
   }
   
 }
+

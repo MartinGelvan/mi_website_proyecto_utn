@@ -19,7 +19,10 @@
 
     {{#if is_search}}
         {{#unless novedades.length}}
-            <p>No se encontraron resultados para <b>"{{q}}"</b></p>
+            <div class="noEncontrado">
+               <p>No se encontraron resultados para <b>"{{q}}"</b></p> 
+            </div>
+            
         {{/unless}}
     {{/if}}
     <hr>
