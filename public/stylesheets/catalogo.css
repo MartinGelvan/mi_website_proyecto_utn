@@ -12,8 +12,10 @@ h3{
 }
 
 .diseno img{
-    height: 300px;
+    height: 280px;
     width: 200px;
+    position: relative;
+    bottom: 1px;
 }
 
 .diseno{
@@ -47,6 +49,7 @@ h3{
     background-color: #7e8dfd;
     border-radius: 50px;
     width: 1080px;
+    margin-bottom: 10px;
 }
 
 
