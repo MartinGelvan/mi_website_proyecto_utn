@@ -5,11 +5,11 @@
                 <div class="mb-3">
 
                     <label class="label-control">Titulo</label>
-                    <input type="text" class="form-control" name="titulo" required>
+                    <input type="text" class="form-control" name="titulo" >
                 </div>
                 <div class="mb-3">
                     <label class="label-control">Cuerpo</label>
-                    <textarea class="form-control" name="cuerpo" rows="3" required></textarea>
+                    <textarea class="form-control" name="cuerpo" rows="3" ></textarea>
                 </div>
 
                 <div class="col-auto">
@@ -19,6 +19,8 @@
         </div>
     </div>
 
-
+    {{#if error}}
+            <p>Todos los campos son requeridos</p>
+    {{/if}}
 
 </div>
